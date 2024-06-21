@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 body {
-    font-family: 'Roboto Serif', serif;
+    font-family: "Roboto Serif", serif;
     background-color: #efdcac;
 }
 
@@ -35,16 +36,22 @@ body {
     color: #efdcac; 
     border-radius: 10px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-    margin: 20px auto; 
+    margin: 20x auto; 
+    font-family: "Roboto serif", serif;
     font-size: 18px; 
 }
 
 h1 {
     text-align: center;
     color: black;
-    font-size: 25px; 
+    font-size: 24px; 
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto serif", serif;
+}
+
+h2{
+    font-family: "Roboto Serif", serif;
+    font-size: 20px;
 }
 
 .conteudo {
@@ -54,6 +61,7 @@ h1 {
     border-radius: 10px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     margin: 20px auto; 
+    font-family: "Roboto Serif", serif;
     font-size: 18px; 
 }
 
@@ -65,57 +73,8 @@ img {
     display: block; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
-
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu a {
-        padding: 10px;
-        font-size: 20px;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    .conteudo {
-        width: 90%;
-        padding: 10px;
-    }
-
-    .conteudo img {
-        width: 100%;
-    }
-
-    .sobre {
-        width: 90%;
-        margin: 10px auto;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .menu {
-        font-size: 18px;
-    }
-
-    .menu a {
-        font-size: 16px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .sobre {
-        font-size: 16px;
-    }
-
-    .conteudo {
-        font-size: 16px;
-    }
-    
+p {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
