@@ -78,7 +78,7 @@ function validaAssunto() {
   let txtMsg = document.querySelector('#txtAssunto')
   
   if(assunto.value.length > 100) {
-    txtMsg.innerHTML = 'Assunto muito grande, digite no máximo 100 caracteres.'
+    txtMsg.innerHTML = "Assunto deve ter no máximo 100 caracteres."
     txtMsg.style.color = '#d90429'
     mensagemOk = false
   } else {
@@ -91,9 +91,9 @@ function validaAssunto() {
 function enviarForm(){
 
   if(nomeOk  && emailOk  && mensagemOk ) {
-    alert(nome.value + ', mensagem enviada com sucesso, aguarde um contato dos nosso pato chefe por e-mail.')
+    alert(nome.value + ', mensagem enviada com sucesso, em breve entraremos em contato por e-mail.')
   } else {
-    alert('Por favor, preencha todos os campos corretamente. Nossos patos-zumbis não são videntes e nem gostam de textão')
+    alert("Por favor, preencha todos os campos corretamente.")
   }
 }
 
